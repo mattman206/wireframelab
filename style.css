@@ -3,3 +3,55 @@ body {
   padding: 0;
   background-color: #373e98;
 }
+
+h1 {
+  text-align: center;
+  font-size: 8vw;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav ul li {
+  display: inline;
+  width: 100px;
+  height: 200px;
+  padding: 5px;
+  background-color: rgb(255, 0, 217);
+
+}
+
+nav ul {
+  text-align: center;
+  font-size: 22px;
+
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 4vw;
+}
+
+h3 {
+  font-size: 4vw;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.hope {
+  text-align: center;
+}
+
+.change {
+  text-align: center;
+}
+
+footer {
+  font-size: 10px;
+  color: black;
+}
+
+p {
+  text-align: justify;
+  font-size: 20px;
+}
