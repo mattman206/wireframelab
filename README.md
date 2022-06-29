@@ -1,2 +1,3 @@
-# wireframelab
-for Lab 4 102d40
+# Wireframe Lab HTML
+
+Pair-project to create *first* **LIVE** website.
