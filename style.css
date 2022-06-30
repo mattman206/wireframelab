@@ -40,6 +40,11 @@ h3 {
 
 .hope {
   text-align: center;
+  opacity: 0.1;
+}
+
+.hope:hover {
+  opacity: 1.0;
 }
 
 .change {
