@@ -7,7 +7,7 @@ function toggleText() {
   }
 }
 let usersWorkout = prompt("Do you believe in magic?");
-if (usersWorkout == "yes") {
+if (usersWorkout == "YES") {
   console.log("Let's get to the Illusions");
 }
 else if (usersWorkout == "yes") {
@@ -20,5 +20,5 @@ else if (usersWorkout.toLowerCase() == "no") {
   document.write("You really should");
 }
 else {
-  document.write("This site still might be for you");
+  document.write("This site might be for you");
 }
