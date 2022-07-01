@@ -59,6 +59,28 @@
   </main>
   <br>
   <br>
+  <!-- button with functions:hide initial picture, select random picture, show random picture-->
+  <button onClick="shuffle();">Shuffle</button>
+  <!--initial picture thats not random and always shown when page is loaded-->
+  <div>
+    <img id="number" src="https://cdn.mos.cms.futurecdn.net/pa3ZNjAgaZekQFG3VaMfe6-1024-80.png" alt="Number">
+  </div>
+
+  <script type="text/javascript">
+
+    //function so the button should be reclickable / array filled with pictures
+    function shuffle() {
+      var images1 = [],
+        index1 = 0;
+      images1[0] = "https://cdn.mos.cms.futurecdn.net/2yp2prHE644qtfnN7EZRhC-970-80.jpg";
+      images1[1] = "https://cdn.mos.cms.futurecdn.net/Lof2qtKtYVtsyThLhekBsn-970-80.jpg";
+      images1[2] = "https://cdn.mos.cms.futurecdn.net/q9HrMVuNFA7YiQknyrYB4E-970-80.png";
+      //selecting random number
+      index1 = Math.floor(Math.random() * images1.length);
+      //displaying random image out of array
+      document.getElementById("number").src = images1[index1];
+    }
+  </script>
   <br>
   <br>
   <br>
@@ -67,6 +89,8 @@
         href="https://github.com/BrianSward">Brian Sward</a> and <a href="https://github.com/">Colter Wilson</a></p>
   </footer>
 
+
+</body>
 
 </body>
 
