@@ -1,4 +1,4 @@
-function toggleText() {
+function promptMagic() {
   var text = document.getElementById("demo");
   if (text.style.display === "none") {
     text.style.display = "block";
@@ -6,19 +6,17 @@ function toggleText() {
     text.style.display = "none";
   }
 }
-let usersWorkout = prompt("Do you believe in magic?");
-if (usersWorkout == "YES") {
-  console.log("Let's get to the Illusions");
+let usersWorkout = prompt("Do you believe in magic?").toLowerCase();
+console.log(usersWorkout);
+
+if (usersWorkout === "yes") {
+  document.write("Let's get to the Illusions");
 }
-else if (usersWorkout == "yes") {
-  console.log("This site is for you");
+else if (usersWorkout !== "yes") {
+  alert("Well you should!!");
+  let usersWorkout = prompt("Do you believe in magic?").toLowerCase();
 }
-if (usersWorkout == "YES") {
-  document.write("THIS SITE IS FOR YOU!");
-}
-else if (usersWorkout.toLowerCase() == "no") {
-  document.write("You really should");
-}
-else {
-  document.write("This site might be for you");
-}
+
+// while (usersWorkout !== "yes") {
+//   let usersWorkout = prompt("Do you believe in magic?").toLowerCase();
+// }
